@@ -1,32 +1,32 @@
-import { Button } from "@edx/paragon";
-import React, { useState } from "react";
-import TabItemComponent from "./TabItem";
+// import { Button } from '@edx/paragon';
+import React, { useState } from 'react';
+import TabItemComponent from './TabItem';
 
 const tabItems = [
   {
     id: 1,
-    title: "About",
-    class: "about",
+    title: 'About',
+    class: 'about',
   },
   {
     id: 2,
-    title: "Course info",
-    content: "step 2 content",
+    title: 'Course info',
+    content: 'step 2 content',
   },
   {
     id: 3,
-    title: "Syllabus",
-    content: "prerequisites",
+    title: 'Syllabus',
+    content: 'prerequisites',
   },
   {
     id: 4,
-    title: "Instructors",
-    content: "course-staff",
+    title: 'Instructors',
+    content: 'course-staff',
   },
   {
     id: 5,
-    title: "FAQs",
-    content: "faq",
+    title: 'FAQs',
+    content: 'faq',
   },
 ];
 
@@ -47,9 +47,7 @@ const TabsComponent = () => {
         ))}
       </div>
       <div className="content">
-        {tabItems.map(({ id, content }) => {
-          return active === id ? content : "";
-        })}
+        {tabItems.map(({ id, content }) => (active === id ? content : ''))}
       </div>
     </div>
   );

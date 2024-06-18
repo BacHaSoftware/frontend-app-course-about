@@ -34,6 +34,8 @@
     "url": "https://github.com/openedx/frontend-template-application/issues"
   },
   "dependencies": {
+    "@edx/frontend-component-footer": "github:BacHaSoftware/frontend-component-footer#main",
+    "@edx/frontend-component-header": "github:BacHaSoftware/frontend-component-header#main",
     "@edx/frontend-platform": "4.6.0",
     "@edx/paragon": "20.45.0",
     "@fortawesome/fontawesome-svg-core": "6.4.0",
@@ -41,6 +43,7 @@
     "@fortawesome/free-regular-svg-icons": "6.4.0",
     "@fortawesome/free-solid-svg-icons": "6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@openedx/brand-openedx": "^1.2.3",
     "animate.css": "^4.1.1",
     "core-js": "3.30.0",
     "prop-types": "15.8.1",

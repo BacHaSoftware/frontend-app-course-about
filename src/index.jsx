@@ -11,15 +11,13 @@ import Header, { messages as headerMessages } from '@edx/frontend-component-head
 import Footer, { messages as footerMessages } from '@edx/frontend-component-footer';
 
 import appMessages from './i18n';
-import ExamplePage from './example/Course_about';
-
-import './index.scss';
+import CourseAboutPage from './components/CourseAbout';
 
 subscribe(APP_READY, () => {
   ReactDOM.render(
     <AppProvider>
       <Header />
-      <ExamplePage />
+      <CourseAboutPage />
       <Footer />
     </AppProvider>,
     document.getElementById('root'),
