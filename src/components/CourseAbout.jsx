@@ -8,14 +8,12 @@ import Row from 'react-bootstrap/Row';
 import axios from 'axios';
 
 import { getConfig } from '@edx/frontend-platform';
-// import { useParams } from 'react-router';
 
 import 'animate.css/animate.min.css';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-// import TabsComponent from './Tabs';
 import TabItemComponent from './TabItem';
-import './index.scss';
+// import './index.scss';
 
 const tabItems = [
   {
