@@ -13,6 +13,8 @@ import Footer, { messages as footerMessages } from '@edx/frontend-component-foot
 import appMessages from './i18n';
 import CourseAboutPage from './components/CourseAbout';
 
+import './index.scss';
+
 subscribe(APP_READY, () => {
   ReactDOM.render(
     <AppProvider>
